@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1 style=" font-family: Calibri; margin: 30px; font-weight: bold;">
+        @ViewData["Title"]
+        <p>
+            <small style=" font-size: 12px; padding: 30px">Created by Ivy, Modified on Oct 31st, 2018.</small>
+        </p>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+<!-- Main content -->
+     
+
+<section class="content container-fluid">
+    The Admin can see information concerning all Dormitories while the Dormitory Manager can only see 
+    information peculiar to their dormitory.
+    The dashbord is basically tables and graphs of the site usage with regards to bookings, user registeration, cancel bookings requests etc.
+    For Better Understanding, Follow carefully the explanations provided.
+
+
+
+    <p></p>
+    <ul>
+        <li style="font-weight : bold; font-size: 18px">
+            Dormitories News & Important Announcements
+        </li>
+        Contains News and Announcements put on the Customer page for each dormitory
+        <p>  </p>
+
+        <li style="font-weight : bold; font-size: 18px">Common Statisitcs </li>
+        You could see booking infos, pending cancellation requests made by users awaiting aproval,
+        User registeration info, that is, number of people registered on the front end and low quota rooms info
+        which show number of rooms with low quotas
+
+        <p> </p>
+
+
+        <li style="font-weight : bold; font-size: 18px">Booking Orders </li>
+        This is a graph showing booking orders frequency within a time frame, either within a day, month or year.
+
+        <p>
+
+        </p>
+
+        <li style="font-weight : bold; font-size: 18px"> New Customers</li>
+        This is a graph showing number of customers over the past days, month or year.
+
+        <p>
+
+        </p>
+
+        <li style="font-weight : bold; font-size: 18px">Booking Totals </li>
+        This is a table that shows the total amount of bookings ever, and table can be
+        filtered by today, this week, this year and all time to show corresponding data.
+
+        <p>
+
+        </p>
+
+        <li style="font-weight : bold; font-size: 18px"> Incomplete Bookings </li>
+        This is a table that shows number of incomplete bookings.
+
+        <p>
+
+        </p>
+        <li style="font-weight : bold; font-size: 18px">Lastest Bookings </li>
+        This is a table that contains list of latest bookings, this makings accessing bookings easier
+        without having to scramble through a long list of bookings searching for unconfrimed ones.
+
+        <p>
+
+        </p>
+
+        <li style="font-weight : bold; font-size: 18px">Popular Filters</li>
+
+        <p>
+
+        </p>
+        <li style="font-weight : bold; font-size: 18px">BestSellers rooms by Amount / Quantity </li>
+        This table contains a list of the rooms purchased by amount and by quantity.
+    </ul>
+</section>
+<!-- /.content -->
