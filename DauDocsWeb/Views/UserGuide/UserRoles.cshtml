@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewData["Title"] = "UserRoles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="content-header">
+    <h1>
+        @ViewData["Title"]
+        <p>
+            <small style=" font-size: 12px; padding: 30px">Created by Ivy, Modified on Oct 31st, 2018.</small>
+        </p>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content container-fluid">
+    The Admin can see information concerning all Dormitories while the Dormitory Manager can only see
+    information peculiar to their dormitory.
+        <p>The User role page is used to track registered Users and assign user roles</p>
+    For Better Understanding, Follow carefully the explanations provided.
+    <p>
+
+    </p>
+
+    <ul>
+        <li style="font-weight : bold; font-size: 18px">Users</li>
+        This is a list of all users that has access to the back  end along with their privileges.
+        There are filters (Firstname, Lastname, Date of Birth, Phone, IPadress, Customer role) to search the list by.
+        <p>
+            There is also an <b style="color:red">Add New</b> button used to add users and assign roles to them and other relevant informaion
+            Hint is provided to make filling form easier.
+        </p>
+        You can also export the list as a spreadsheet file.
+
+        <p>
+
+        </p>
+
+        <li style="font-weight : bold; font-size: 18px">User Roles </li>
+        This is a list of all added user roles. New User roles could also be added and Edited.
+
+        <p>
+
+        </p>
+
+        <li style="font-weight : bold; font-size: 18px">Online Users</li>
+        This is a list of Online Users on the site alon with their Info, Ip addresses, Locations, Recent activities.
+        <p>
+
+        </p>
+        <li style="font-weight : bold; font-size: 18px">Users Report </li>
+        This contains 3 tabs, first which is Users by booking amount; this shows list of customers
+        in order of amount paid for bookings, then next is users by number of reservations which shows list in order of highest
+        reservations to the lowest and then Registered Users tab which is a list of regitered Users on the Customer area (front end).
+        <p>You could also delete Users from this page</p>
+
+        <p style="margin-left: 30.0px">
+
+        </p>
+
+        <li style="font-weight : bold; font-size: 18px">Activity Log </li>
+        Thistable is howing list of activities caried out on this site to be able to track what activities is being done, activities like adding or deleting a room, etc.
+        You can also clear list
+
+        <p>
+
+        </p>
+        <li style="font-weight : bold; font-size: 18px">Activity log type </li>
+            This shows the type of activities enabled/disabled to be able to track on the activity log list.
+
+    </ul>
+</section>
+<!-- /.content -->

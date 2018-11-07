@@ -20,5 +20,10 @@ namespace DauDocsWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult UserRoles()
+        {
+            return View();
+        }
     }
 }
